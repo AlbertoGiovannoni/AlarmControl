@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/untitled.dir/Alarm.cpp.o"
+  "CMakeFiles/untitled.dir/Camera.cpp.o"
   "CMakeFiles/untitled.dir/main.cpp.o"
   "untitled"
   "untitled.pdb"

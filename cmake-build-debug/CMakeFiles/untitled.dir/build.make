@@ -63,10 +63,10 @@ RM = /home/alberto/Scaricati/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alberto/CLionProjects/untitled
+CMAKE_SOURCE_DIR = /home/alberto/CLionProjects/AlarmControl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alberto/CLionProjects/untitled/cmake-build-debug
+CMAKE_BINARY_DIR = /home/alberto/CLionProjects/AlarmControl/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled.dir/depend.make
@@ -79,28 +79,58 @@ include CMakeFiles/untitled.dir/flags.make
 
 CMakeFiles/untitled.dir/main.cpp.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alberto/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/main.cpp.o -c /home/alberto/CLionProjects/untitled/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alberto/CLionProjects/AlarmControl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/main.cpp.o -c /home/alberto/CLionProjects/AlarmControl/main.cpp
 
 CMakeFiles/untitled.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alberto/CLionProjects/untitled/main.cpp > CMakeFiles/untitled.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alberto/CLionProjects/AlarmControl/main.cpp > CMakeFiles/untitled.dir/main.cpp.i
 
 CMakeFiles/untitled.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alberto/CLionProjects/untitled/main.cpp -o CMakeFiles/untitled.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alberto/CLionProjects/AlarmControl/main.cpp -o CMakeFiles/untitled.dir/main.cpp.s
+
+CMakeFiles/untitled.dir/Alarm.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Alarm.cpp.o: ../Alarm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alberto/CLionProjects/AlarmControl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/Alarm.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Alarm.cpp.o -c /home/alberto/CLionProjects/AlarmControl/Alarm.cpp
+
+CMakeFiles/untitled.dir/Alarm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Alarm.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alberto/CLionProjects/AlarmControl/Alarm.cpp > CMakeFiles/untitled.dir/Alarm.cpp.i
+
+CMakeFiles/untitled.dir/Alarm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Alarm.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alberto/CLionProjects/AlarmControl/Alarm.cpp -o CMakeFiles/untitled.dir/Alarm.cpp.s
+
+CMakeFiles/untitled.dir/Camera.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Camera.cpp.o: ../Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alberto/CLionProjects/AlarmControl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/Camera.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Camera.cpp.o -c /home/alberto/CLionProjects/AlarmControl/Camera.cpp
+
+CMakeFiles/untitled.dir/Camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Camera.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alberto/CLionProjects/AlarmControl/Camera.cpp > CMakeFiles/untitled.dir/Camera.cpp.i
+
+CMakeFiles/untitled.dir/Camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Camera.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alberto/CLionProjects/AlarmControl/Camera.cpp -o CMakeFiles/untitled.dir/Camera.cpp.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
-"CMakeFiles/untitled.dir/main.cpp.o"
+"CMakeFiles/untitled.dir/main.cpp.o" \
+"CMakeFiles/untitled.dir/Alarm.cpp.o" \
+"CMakeFiles/untitled.dir/Camera.cpp.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled: CMakeFiles/untitled.dir/main.cpp.o
+untitled: CMakeFiles/untitled.dir/Alarm.cpp.o
+untitled: CMakeFiles/untitled.dir/Camera.cpp.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alberto/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alberto/CLionProjects/AlarmControl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable untitled"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +143,6 @@ CMakeFiles/untitled.dir/clean:
 .PHONY : CMakeFiles/untitled.dir/clean
 
 CMakeFiles/untitled.dir/depend:
-	cd /home/alberto/CLionProjects/untitled/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alberto/CLionProjects/untitled /home/alberto/CLionProjects/untitled /home/alberto/CLionProjects/untitled/cmake-build-debug /home/alberto/CLionProjects/untitled/cmake-build-debug /home/alberto/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alberto/CLionProjects/AlarmControl/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alberto/CLionProjects/AlarmControl /home/alberto/CLionProjects/AlarmControl /home/alberto/CLionProjects/AlarmControl/cmake-build-debug /home/alberto/CLionProjects/AlarmControl/cmake-build-debug /home/alberto/CLionProjects/AlarmControl/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/untitled.dir/depend
 

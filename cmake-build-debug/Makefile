@@ -68,10 +68,10 @@ RM = /home/alberto/Scaricati/CLion-2019.3.5/clion-2019.3.5/bin/cmake/linux/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alberto/CLionProjects/untitled
+CMAKE_SOURCE_DIR = /home/alberto/CLionProjects/AlarmControl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alberto/CLionProjects/untitled/cmake-build-debug
+CMAKE_BINARY_DIR = /home/alberto/CLionProjects/AlarmControl/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alberto/CLionProjects/untitled/cmake-build-debug/CMakeFiles /home/alberto/CLionProjects/untitled/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alberto/CLionProjects/AlarmControl/cmake-build-debug/CMakeFiles /home/alberto/CLionProjects/AlarmControl/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alberto/CLionProjects/untitled/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alberto/CLionProjects/AlarmControl/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,6 +143,60 @@ untitled/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
+Alarm.o: Alarm.cpp.o
+
+.PHONY : Alarm.o
+
+# target to build an object file
+Alarm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Alarm.cpp.o
+.PHONY : Alarm.cpp.o
+
+Alarm.i: Alarm.cpp.i
+
+.PHONY : Alarm.i
+
+# target to preprocess a source file
+Alarm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Alarm.cpp.i
+.PHONY : Alarm.cpp.i
+
+Alarm.s: Alarm.cpp.s
+
+.PHONY : Alarm.s
+
+# target to generate assembly for a file
+Alarm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Alarm.cpp.s
+.PHONY : Alarm.cpp.s
+
+Camera.o: Camera.cpp.o
+
+.PHONY : Camera.o
+
+# target to build an object file
+Camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Camera.cpp.o
+.PHONY : Camera.cpp.o
+
+Camera.i: Camera.cpp.i
+
+.PHONY : Camera.i
+
+# target to preprocess a source file
+Camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Camera.cpp.i
+.PHONY : Camera.cpp.i
+
+Camera.s: Camera.cpp.s
+
+.PHONY : Camera.s
+
+# target to generate assembly for a file
+Camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Camera.cpp.s
+.PHONY : Camera.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +233,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled"
+	@echo "... Alarm.o"
+	@echo "... Alarm.i"
+	@echo "... Alarm.s"
+	@echo "... Camera.o"
+	@echo "... Camera.i"
+	@echo "... Camera.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

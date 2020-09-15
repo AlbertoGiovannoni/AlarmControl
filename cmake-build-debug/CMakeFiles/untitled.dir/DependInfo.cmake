@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/alberto/CLionProjects/untitled/main.cpp" "/home/alberto/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
+  "/home/alberto/CLionProjects/AlarmControl/Alarm.cpp" "/home/alberto/CLionProjects/AlarmControl/cmake-build-debug/CMakeFiles/untitled.dir/Alarm.cpp.o"
+  "/home/alberto/CLionProjects/AlarmControl/Camera.cpp" "/home/alberto/CLionProjects/AlarmControl/cmake-build-debug/CMakeFiles/untitled.dir/Camera.cpp.o"
+  "/home/alberto/CLionProjects/AlarmControl/main.cpp" "/home/alberto/CLionProjects/AlarmControl/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

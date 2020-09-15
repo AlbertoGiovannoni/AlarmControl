@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/untitled.dir/main.cpp.o  -o untitled 
+/usr/bin/c++  -g   CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/Alarm.cpp.o CMakeFiles/untitled.dir/Camera.cpp.o  -o untitled 
